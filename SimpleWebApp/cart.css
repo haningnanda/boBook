@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.349);
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 23px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: orange;
+}
+
+.content {
+    margin: 10px 20%;
+}
+
+.book {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.keterangan {
+    margin-left: 20px;
+}
+
+.book img {
+    max-width: 100px;
+}
+
+.total {
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
